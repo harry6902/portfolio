@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Github, Linkedin,Mail, Twitter, ArrowDown, CaseUpper,FileText } from "lucide-react";
+import { Github, Linkedin,Mail, Twitter, ArrowDown,FileText } from "lucide-react";
 import Link from "next/link";
 import { Card } from './components/Card';
 

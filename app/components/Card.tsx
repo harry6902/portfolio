@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import Link from "next/link";
 
 export function Card({heading,description,gitlink,hostlink,imgUrl}:{
