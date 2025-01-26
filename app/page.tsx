@@ -45,13 +45,13 @@ export default function Home() {
     <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.8 }}
           >
 
     <div className="absolute top-0 text-white h-screen w-screen flex flex-col justify-center items-center">
     
       <h1 className="text-4xl md:text-6xl font-bold mb-6">Manepalli Hari</h1>
-      <p className="text-lg md:text-2xl text-muted-foreground mb-8 text-slate-400">Full Stack Development, Web3 and DevOps Enthusiast</p>
+      <p className="text-lg md:text-2xl text-muted-foreground mb-8 text-slate-400 text-center">Full Stack Development, Web3 and DevOps Enthusiast</p>
 
       <div className="flex gap-3 md:gap-5 mb-8">
         <Link href={"https://github.com/harry6902"} target="_blank">
@@ -164,16 +164,16 @@ export default function Home() {
     <section className="min-h-[50vh] bg-black text-white" >
 
       <div className="flex flex-col md:flex-row w-full">
-        <div className="lg:w-[25vw] h-full flex flex-col justify-center items-center">
+        <div className="lg:w-[30vw] h-full flex flex-col justify-center items-center">
 
           <img src="./myimg2.png" alt=""  className="h-32 w-32 rounded-full object-cover mt-10"/>
-          <h1 className=" italic font-bold text-xl md:text-3xl mt-2 md:mt-5">Manepalli Hari</h1>
-          <h2 className="texl-lg md:text-2xl">IIT Jodhpur CSE Graduate</h2>
-
+          <h1 className=" italic font-semibold text-xl md:text-3xl mt-2 md:mt-5">Manepalli Hari</h1>
+          <h2 className="italic texl-lg md:text-2xl">IIT Jodhpur (2019-2023)</h2>
+          <h3 className="italic text-lg">Computer Science and Engineering</h3>
 
 
         </div>
-        <div className="lg:w-[75vh] flex flex-col items-center md:items-start justify-center md:ml-16">
+        <div className="lg:w-[75vh] flex flex-col items-center md:items-start justify-center mb-8 md:mb-0  md:ml-16">
         <h1 className=" font-bold text-lg md:text-xl mt-2 md:mt-5">Get in touch</h1>
         <p className="w-[70vw] md:w-[50vw] text-gray-400">I’m open to exciting projects and collaborations! Let’s bring your idea to life or solve your web development challenges—reach out anytime.</p>
           
