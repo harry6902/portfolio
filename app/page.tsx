@@ -175,7 +175,7 @@ export default function Home() {
         </div>
         <div className="lg:w-[75vh] flex flex-col items-center md:items-start justify-center mb-8 md:mb-0  md:ml-16">
         <h1 className=" font-bold text-lg md:text-xl mt-2 md:mt-5">Get in touch</h1>
-        <p className="w-[70vw] md:w-[50vw] text-gray-400">I’m open to exciting projects and collaborations! Let’s bring your idea to life or solve your web development challenges—reach out anytime.</p>
+        <p className="w-[70vw] md:w-[50vw] text-center md:text-left text-gray-400">I’m open to exciting projects and collaborations! Let’s bring your idea to life or solve your web development challenges—reach out anytime.</p>
           
           <p className="text-gray-400">Ph.No: +91-9352218875</p>
           <p className="text-gray-400">📧 Email: <span className="text-blue-500">manepallihari2002@gmail.com</span></p>
