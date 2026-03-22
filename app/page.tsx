@@ -118,8 +118,9 @@ export default function Home() {
     <section id="projects-section" className="min-h-[50vh] bg-slate-900  text-white w-full flex flex-col justify-center items-center pb-5">
     <h2 className="text-3xl font-bold text-center mb-12 mt-10">Projects</h2>
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-3 gap-y-3">
+
     <Card 
-    heading={"Excalidraw"}
+    heading={"Excalidraws"}
     description={"A real-time collaborative whiteboard where users can draw various shapes, write text, and interact seamlessly with updates appearing instantly for all participants."}
     gitlink={"https://github.com/harry6902/excalidraw"}
     imgUrl={"/projects/excali.png"}
