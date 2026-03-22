@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-
+import Image from "next/image";
 export function Card({heading,description,gitlink,hostlink,imgUrl}:{
     heading:string,
     description:string,
@@ -12,8 +12,14 @@ export function Card({heading,description,gitlink,hostlink,imgUrl}:{
         <div className="min-h-[30vh] w-[80vw] lg:w-[30vw] bg-gray-900 border border-gray-400 p-5 rounded-md relative" >
             <div className="h-full w-full flex flex-col gap-1">
             <h1 className="text-xl md:text-2xl font-bold h-8 mb-2">{heading}</h1>
-            <img src={imgUrl} alt="" className="w-[80vw] lg:w-[30vw] h-[23vh] md:h-[28vh] object-cover object-top-right rounded-md" />
-            <p className="text-xs text-gray-300 text-center font-mono h-16 md:h-12">{description}</p>
+            <Image
+            src={imgUrl}
+            width={300}
+            height={200}
+            alt="description of image"  
+            className="w-[80vw] lg:w-[30vw] h-[23vh] md:h-[28vh] object-cover object-top-right rounded-md"
+            />
+             <p className="text-xs text-gray-300 text-center font-mono h-16 md:h-12">{description}</p>
             <div className="flex items-center gap-5 mt-2">
             <div className=" bg-gray-700 p-2 rounded-md cursor-pointer hover:bg-gray-600 ">
              <Link href={gitlink} className="flex justify-center items-center gap-2" target="_blank">
